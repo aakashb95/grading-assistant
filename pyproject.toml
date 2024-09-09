@@ -1,0 +1,14 @@
+[project]
+name = "grading-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.34.2",
+    "fastapi>=0.114.0",
+    "instructor>=1.4.1",
+    "openai>=1.44.0",
+    "pydantic>=2.9.1",
+    "pypdf>=4.3.1",
+]
